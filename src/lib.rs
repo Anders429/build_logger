@@ -18,6 +18,8 @@
 //! }
 //! ```
 
+#![allow(clippy::needless_doctest_main)]
+
 use log::{LevelFilter, Log, Metadata, Record, SetLoggerError, set_logger, set_max_level};
 
 #[derive(Debug)]
