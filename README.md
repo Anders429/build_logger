@@ -3,6 +3,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Anders429/build_logger/ci.yml?branch=master)](https://github.com/Anders429/build_logger/actions/workflows/ci.yml)
 [![crates.io](https://img.shields.io/crates/v/build_logger)](https://crates.io/crates/build_logger)
 [![docs.rs](https://docs.rs/build_logger/badge.svg)](https://docs.rs/build_logger)
+[![License](https://img.shields.io/crates/l/build_logger)](#license)
 
 A logger to be used in build scripts.
 
