@@ -1,0 +1,9 @@
+[package]
+name = "info"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[build-dependencies]
+build_logger = {path = "../.."}
+log = "0.4.29"
