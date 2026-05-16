@@ -6,6 +6,7 @@ where
 {
     let output = Command::new("cargo")
         .args(["build"])
+        .env("CARGO_TERM_COLOR", "never")
         .current_dir(path)
         .output()
         .expect("failed to build test crate");
